@@ -1,0 +1,151 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 11</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- TAILWIND CDN LINK -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!--Nav -->
+    <nav class="nav">
+        <img class="logo" src="./images/logooo.jpg" alt="logo">
+        <ul class="nav-list">
+            <li class="list"><a class="list-name" href="#home">Home</a></li>
+            <li class="list"><a class="list-name" href="#about">About</a></li>
+            <li class="list"><a class="list-name" href="#menu">Menu</a></li>
+            <li class="list"><a class="list-name" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="relative h-[90vh] bg-cover bg-center" style="background-image:url(./images/home.jpg);">
+        <div class="absolute inset-0 bg-white/40"></div>
+        <!-- TEXT HEADING -->
+        <div class="absolute inset-0 flex items-center justify-center">
+            <h1
+                class="text-4xl font-extrabold  hover:text-blue-800 drop-shadow-lg  transition transform hover:scale-110">
+                Meet Me Cafe</h1>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <!-- BG -->
+    <div id="about" class="flex flex-col items-center justify-center min-h-screen bg-cover bg-center px-4"
+        style="background-image: url('./images/about.jpg');">
+        <!-- Section title -->
+        <h1 class=" text-5xl font-bold text-white mb-8 mt-6">About</h1>
+        <img class="w-80 h-auto mb-6 rounded shadow-lg" src="./images/about1.avif" alt="aboutimg">
+        <div class="bg-black bg-opacity-50 p-8 rounded max-w-3xl mx-auto text-center text-white">
+            <p class="text-2xl font-semibold mb-4">
+                Step into <strong
+                    class="text-4xl font-extrabold  hover:text-blue-800 drop-shadow-lg  transition transform hover:scale-110">Meet
+                    Me Cafe</strong> — a modern, stylish space where great coffee meets great company.
+            </p>
+            <p class=" text-lg leading-relaxed">
+                Designed for today's pace and vibe, we're the perfect spot to spark new ideas, catch up with
+                friends, or simply unwind.
+                Enjoy our expertly crafted brews, fresh bites, and inviting atmosphere. Whether you're here for a
+                quick coffee or an all-day hangout, Meet Me Cafe is your place to connect, create, and recharge.
+            </p>
+        </div>
+    </div>
+
+    <!-- MENU -->
+    <div id="menu" class=" flex flex-col items-center justify-center min-h-screen bg-cover bg-center px-4"
+        style="background-image: url('./images/menu.webp');">
+<div class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="text-4xl font-bold text-center mb-10 text-white">Our Menu</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+    <!-- Item 1 -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+      <img src="./images/espresso.jpg" alt="Espresso" class="w-full h-48 object-cover">
+      <div class="p-6 text-center">
+        <h3 class="text-xl font-semibold mb-2">Espresso</h3>
+        <p class="text-gray-600 mb-3">Rich, bold shot of coffee</p>
+        <p class="text-lg font-bold">₹120</p>
+      </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+      <img src="./images/Cappuccino.jpg" alt="Cappuccino" class="w-full h-48 object-cover">
+      <div class="p-6 text-center">
+        <h3 class="text-xl font-semibold mb-2">Cappuccino</h3>
+        <p class="text-gray-600 mb-3">Espresso with steamed milk & foam</p>
+        <p class="text-lg font-bold">₹150</p>
+      </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+      <img src="./images/Blueberry Muffins.jpg" alt="Blueberry Muffin" class="w-full h-48 object-cover">
+      <div class="p-6 text-center">
+        <h3 class="text-xl font-semibold mb-2">Blueberry Muffin</h3>
+        <p class="text-gray-600 mb-3">Freshly baked, soft and sweet</p>
+        <p class="text-lg font-bold">₹100</p>
+      </div>
+    </div>
+
+    <!-- Add more items as needed -->
+
+  </div>
+</div>
+    </div>
+
+
+    <!-- Contact Section -->
+<section id="contact" class="max-w-4xl mx-auto px-4 py-12 "></section>">
+  <h2 class="text-4xl font-bold text-center mb-8 text-black">Contact Us</h2>
+
+  <div class="bg-white rounded-lg shadow-lg p-8 space-y-6 text-gray-800">
+
+    <!-- Address -->
+    <div class="text-center">
+      <h3 class="text-xl font-semibold mb-2">Visit Us</h3>
+      <p>123 Main Street, Downtown</p>
+      <p>Your City, State, 123456</p>
+    </div>
+
+    <!-- Phone -->
+    <div class="text-center">
+      <h3 class="text-xl font-semibold mb-2">Call Us</h3>
+      <p>+91 98765 43210</p>
+    </div>
+
+    <!-- Email -->
+    <div class="text-center">
+      <h3 class="text-xl font-semibold mb-2">Email</h3>
+      <p>hello@meetmecafe.com</p>
+    </div>
+
+    <!-- Optional Contact Form -->
+    <form class="space-y-4 ">
+      <div>
+        <label class="block text-sm font-semibold mb-1">Name</label>
+        <input type="text" class="w-full border rounded px-4 py-2" placeholder="Your Name">
+      </div>
+      <div>
+        <label class="block text-sm font-semibold mb-1">Email</label>
+        <input type="email" class="w-full border rounded px-4 py-2" placeholder="Your Email">
+      </div>
+      <div>
+        <label class="block text-sm font-semibold mb-1">Message</label>
+        <textarea class="w-full border rounded px-4 py-2" rows="4" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700 transition">
+        Send Message
+      </button>
+    </form>
+
+  </div>
+</section>
+</body>
+
+</html> 

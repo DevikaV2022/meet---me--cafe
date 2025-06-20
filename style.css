@@ -1,0 +1,55 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAV BAR */
+.nav
+{
+  height: 150px;
+  background-color:rgba(156, 231, 231);
+}
+
+/* LOGO */
+.logo
+{
+    width: 140px;
+    height: 140px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    border-radius: 100px;
+    
+}
+
+/* ALL LIST */
+.nav-list
+{
+    display: flex;
+    gap: 80px;
+    margin: -75px 900px 200px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: larger;
+}
+
+.list-name:hover
+{
+    color:white;
+    transition: 1s;
+}
+
+/* LIST */
+.list
+{
+    list-style: none;
+}
+
+/* LIST NAME */
+.list-name
+{
+    text-decoration: none;
+    font-size:30px;
+}
